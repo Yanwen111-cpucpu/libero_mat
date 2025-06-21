@@ -52,6 +52,16 @@ class Butter(HopeBaseObject):
         self.rotation = (0.0, 0.0)
         self.rotation_axis = "x"
 
+@register_object
+class mat(HopeBaseObject):
+    def __init__(
+        self,
+        name="mat",
+        obj_name="mat",
+    ):
+        super().__init__(name, obj_name)
+        self.rotation = (0, 0)
+        self.rotation_axis = "x"
 
 @register_object
 class Cherries(HopeBaseObject):

@@ -73,7 +73,7 @@ for libero_suite in libero_suites:
             problem="Libero",
             problem_folder=libero_suite,
             bddl_file=f"{task}.bddl",
-            init_states_file=f"{task}.pruned_init",
+            init_states_file=f"{task}_mat.pruned_init",
         )
 
         # print(language, "\n", f"{task}.bddl", "\n")

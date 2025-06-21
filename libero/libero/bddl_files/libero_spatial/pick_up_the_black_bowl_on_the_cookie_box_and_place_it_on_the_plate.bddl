@@ -107,6 +107,7 @@
   )
 
   (:objects
+    mat_1 - mat
     akita_black_bowl_1 akita_black_bowl_2 - akita_black_bowl
     cookies_1 - cookies
     glazed_rim_porcelain_ramekin_1 - glazed_rim_porcelain_ramekin
@@ -119,7 +120,8 @@
   )
 
   (:init
-    (On akita_black_bowl_1 cookies_1)
+    (On mat_1 cookies_1)
+    (On akita_black_bowl_1 mat_1)
     (On akita_black_bowl_2 wooden_cabinet_1_top_side)
     (On plate_1 main_table_plate_region)
     (On cookies_1 main_table_box_region)
